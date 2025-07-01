@@ -1,0 +1,16 @@
+[package]
+name = "burn_processor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { version = "0.17.0", features = ["webgpu", "wgpu", "template", "vision"] }
+burn-wgpu = "0.17.0"
+image = "0.25"
+cubecl = "0.5.0"
+bytemuck = "1.14"
+derive-new = "0.7"
+
+[[example]]
+name = "outline"
+path = "examples/outline.rs" 
