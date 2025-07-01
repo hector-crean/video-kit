@@ -1,0 +1,31 @@
+[package]
+name = "subtitles"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+# Official Deepgram Rust SDK (local copy)
+deepgram = { path = "../deepgram-rust-sdk", features = ["listen"] }
+# Async runtime
+tokio = { version = "1.0", features = ["full"] }
+# JSON handling
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+# Error handling
+thiserror = "1.0"
+# Time handling
+chrono = { version = "0.4", features = ["serde"] }
+# Temporary files
+tempfile = "3.8"
+# JSON Schema for integration with cutting crate
+schemars = { version = "0.8", optional = true }
+
+[features]
+default = []
+schemars = ["dep:schemars"]
+
+[[example]]
+name = "extract_subtitles"
+path = "examples/extract_subtitles.rs"
