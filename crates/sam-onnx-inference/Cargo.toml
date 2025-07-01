@@ -1,0 +1,46 @@
+[package]
+name = "sam-inference"
+version = "0.1.0"
+edition = "2021"
+authors = ["Burn Team <hello@burn.dev>"]
+license = "MIT OR Apache-2.0"
+description = "SAM (Segment Anything Model) native inference with Burn"
+
+[dependencies]
+# Burn core dependencies
+
+burn = { version = "0.17.0", features = ["wgpu"] }
+burn-wgpu = "0.17.0"
+
+# PyTorch weight loading (optional)
+burn-import = { version = "0.17.0", features = ["pytorch"], optional = true }
+
+# PyTorch weight loading (optional)
+
+# Image processing
+image = "0.25"
+
+# Command line interface
+clap = { version = "4.5", features = ["derive"] }
+
+# Serialization and utilities  
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.11"
+
+# HTTP client for downloading checkpoints
+ureq = { version = "2.10", optional = true }
+
+# Optional async support for downloading
+tokio = { version = "1.0", features = ["full"], optional = true }
+reqwest = { version = "0.12", features = ["json"], optional = true }
+
+[features]
+default = ["pytorch-weights"]
+pytorch-weights = ["dep:burn-import"]
+download = ["dep:ureq"]
+
+[[bin]]
+name = "sam"
+path = "src/bin/sam.rs" 

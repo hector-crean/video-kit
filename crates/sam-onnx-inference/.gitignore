@@ -1,0 +1,37 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SAM model files (large files)
+*.pth
+*.onnx
+checkpoints/
+
+# Generated Rust code
+target/
+
+# Output masks
+output/
+*.png
+*.jpg
+*.jpeg
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db 
