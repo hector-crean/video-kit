@@ -1,0 +1,54 @@
+[workspace]
+resolver = "2"
+edition = "2024"
+members = [
+    "crates/*", "cli"
+    ]
+exclude = ["crates/deepgram-rust-sdk", "crates/sam-onnx-inference"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Hector Crean <hectorcrean@gmail.com>"]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+
+[workspace.dependencies]
+cutting = { path = "crates/cutting" }
+mask = { path = "crates/mask" }
+sam2 = { path = "crates/sam2" }
+subtitles = { path = "crates/subtitles" }
+image = "0.25"
+imageproc = "0.23"
+geo = "0.27"
+geo-types = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+geojson = "0.24"
+
+# JSON schema generation
+schemars = "0.8.0"
+
+# RMCP: Custom protocol library with multiple features enabled
+rmcp = { version = "0.1.5", features = [
+    "server",                   # Server-side support
+    "client",                   # Client-side support
+    "transport-sse-server",     # SSE server transport
+    "transport-sse",            # SSE client transport
+    "transport-io",             # IO transport
+    "transport-child-process",  # Child process transport
+    "tower"                     # Tower integration
+] }
+base64 = "0.22.1"
+strum = { version = "0.27.1", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }
+color-eyre = "0.6"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+
+ts-rs = { version = "11.0.1", features = ["serde-compat", "bytes",  "chrono", "serde_json", "serde-json-impl", "tokio", "url", "uuid", "uuid-impl", "chrono-impl"] }
+topojson = "0.5.1"
+bevy = "0.14.0"
+bincode = "2.0.0-rc.3"
