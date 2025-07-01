@@ -1,0 +1,40 @@
+{
+  "path": "/Users/hectorcrean/rust/video-kit/cli/assets/NOV271_Zigakibart_MoA_1080p_HD_240923a.mp4",
+  "output_dir": "/Users/hectorcrean/rust/video-kit/output_clips",
+  "clips": [
+    {
+      "name": "segment_001",
+      "start": 0.0,
+      "end": 75.77499800000001,
+      "description": "Natural segment 1 (0.0s - 75.8s, duration: 75.8s)",
+      "operation": {
+        "type": "splice",
+        "params": {
+          "segments": [
+            {
+              "start": 0.0,
+              "end": 75.77499800000001
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "segment_002",
+      "start": 75.77499800000001,
+      "end": 215.185,
+      "description": "Natural segment 2 (75.8s - 215.2s, duration: 139.4s)",
+      "operation": {
+        "type": "splice",
+        "params": {
+          "segments": [
+            {
+              "start": 75.77499800000001,
+              "end": 215.185
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

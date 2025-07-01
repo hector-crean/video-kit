@@ -1,0 +1,268 @@
+{
+    "path": "cli/assets/NOV271_Zigakibart_MoA_1080p_HD_240923a.mp4",
+    "output_dir": "output_clips",
+    "clips": [
+      {
+        "name": "Scene_1.1",
+        "description": "We open on a body shot with kidneys on display. Next to body, a world map appears",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[0.0, 14.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_2.1",
+        "description": "Kidneys become more in focus. Cut to a blood vessel environment. Stop to rotate Gd-IgA1 around a pivot point.",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[14.0, 38.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.1.1.1",
+        "description": "More antibodies enter and are labelled anti-Gd-IgA1 autoantibodies (Title: ‘HIT 2’).",
+        "operation": {
+          "type": "sequentise",
+          "params": {
+            "period": [38.0, 42.0]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.1.1.2",
+        "description": "",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[42.0, 43.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.1.2",
+        "description": "User pulls sequence slider to form immune complex.",
+        "operation": {
+          "type": "sequentise",
+          "params": {
+            "period": [43.0, 46.0]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.1.3",
+        "description": "Post-sequence slider, the voiceover explain",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[46.0, 49.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.3",
+        "description": "We transition to cross section of the glomerulus and show immune complex deposition in the mesangium. (Title: HIT 4’)",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[49.0, 74.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.4",
+        "description": "The overlay disappears and we see the immune complex damaging the glomerulus. Utilise comparison slider",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[74.0, 84.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.5",
+        "description": "We transition to the mucosal-associated lymphoid tissue, and pause. Click on plasma cell to release antibodies",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[84.0, 89.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.6",
+        "description": "Release of antibodies, and pause with APRIL in focus",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[89.0, 92.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.7",
+        "description": "Transition from APRIL",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[92.0, 97.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.8",
+        "description": "",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[97.0, 112.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.9",
+        "description": "Reposition for drag sequence",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[112.0, 115.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.10",
+        "description": "Drag sequence",
+        "operation": {
+          "type": "sequentise",
+          "params": {
+            "period": [115.0, 118.0]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.11",
+        "description": "Transition to next drag sequence",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[118.0, 121.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.12",
+        "description": "Drag sequence",
+        "operation": {
+          "type": "sequentise",
+          "params": {
+            "period": [121.0, 122.0]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.13",
+        "description": "The camera pulls out and we see the plasma cell in circulation releasing Gd-IgA1 antibodies.",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[122.0, 144.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.14",
+  
+        "description": "split 3 screen",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[144.0, 158.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.15",
+        "description": "Focus on kidneys. Flashing",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[158.0, 161.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.16",
+        "description": "Zigakibart enters. We pause and rotate. ",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[161.0, 165.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.17",
+        "start": 165.0,
+        "end": 169.0,
+        "description": "APRIL comes in the scene and stops in place by Zigakibart. ",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[165.0, 169.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.18",
+        "start": 169.0,
+        "end": 172.0,
+        "description": "Drag sequence. ",
+        "operation": {
+          "type": "sequentise",
+          "params": {
+            "period": [169.0, 172.0]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.19",
+        "start": 172.0,
+        "end": 175.0,
+        "description": "BCMA and TACI receptors are shown to be unbound while Zigakibart is bound to APRIL. ",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[172.0, 185.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.20",
+        "start": 185.0,
+        "end": 188.0,
+        "description": "Comparison slider. ",
+        "operation": {
+          "type": "splice",
+          "params": {
+            "segments": [[185.0, 200.0]]
+          }
+        }
+      },
+      {
+        "name": "Scene_3.21",
+        "start": 200.0,
+        "end": 212.0,
+        "description": "Drag sequence. ",
+        "operation": {
+          "type": "sequentise",
+          "params": {
+            "period": [200.0, 212.0]
+          }
+        }
+      }
+    ]
+  }
+  
