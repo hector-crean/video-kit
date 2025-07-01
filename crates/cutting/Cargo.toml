@@ -1,0 +1,57 @@
+[package]
+name = "cutting"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+thiserror = "1.0"
+color-eyre = "0.6"
+
+# For the command enum pattern
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+strum = { version = "0.26", features = ["derive"] }
+strum_macros = "0.26"
+schemars = "0.8"
+toml = "0.8"
+
+gstreamer = { version = "0.22", features = ["v1_22"], optional = true }
+
+# Subtitle integration
+tokio = { version = "1.0", features = ["full"], optional = true }
+
+subtitles = { workspace = true, optional = true, features = ["schemars"] }
+video_kit_common = { path = "../video_kit_common" }
+
+[features]
+default = ["gstreamer", "ffmpeg"]
+gstreamer = ["dep:gstreamer"]
+ffmpeg = []
+
+
+[[example]]
+name = "splice_video"
+path = "examples/splice_video.rs"
+required-features = ["gstreamer"]
+
+[[example]]
+name = "ffmpeg_example"
+path = "examples/ffmpeg_example.rs"
+required-features = ["ffmpeg"]
+
+[[example]]
+name = "poster_generation"
+path = "examples/poster_generation.rs"
+required-features = ["ffmpeg"]
+
+[[example]]
+name = "smart_cutting_with_subtitles"
+path = "examples/smart_cutting_with_subtitles.rs"
+required-features = ["ffmpeg", "subtitles"]
+
+[[bin]]
+name = "video-cutter"
+path = "src/bin/video-cutter.rs"
+required-features = ["cli"]
