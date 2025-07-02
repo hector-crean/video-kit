@@ -1,5 +1,61 @@
 # Video Kit - Tools for preprocessing videos
 
+<video width="600" controls>
+  <source src="assets/clickable_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<small>
+Set of tools developed for turning video animations into interactive presentations, but the tools have wider applicability.
+
+The initial ambition was to use segment anything 2 to generate masks for objects within a video. We can then setup a 
+<a href="https://github.com/hector-crean/ran/blob/ab68788e8c4b30dd1ecbcc4dd8289601d0fc3f4a/src/components/webgpu-canvas.tsx#L211">ompute shader pipeline</a>, 
+where we readback the colour of the mask we are clicking on, and use this to infer the object we are interacting with. 
+
+This can in turn be used to drive UI effects within a fragment shader. 
+</small>
+
+Where possible the tools have to be 'backend agnostic'. The `cutting` crate for instance derives a driver trait, which has been implemented for ffmpeg and gstreamer,
+but could be implemented for any 'backend'. 
+
+```rs
+pub trait Driver {
+    /// The type of source this driver works with
+    type Source: Source;
+    /// The type of sink this driver works with  
+    type Sink: Sink;
+    /// The internal representation of a video/audio stream with operations applied
+    type Stream: Clone;
+
+    /// Load a source into the driver's internal stream representation
+    fn load(&self, source: &Self::Source) -> Result<Self::Stream, DriverError>;
+    
+    /// Apply a splice operation to the stream, returning a new stream
+    fn splice(&self, stream: Self::Stream, segments: &[Range<f64>]) -> Result<Self::Stream, DriverError>;
+    
+    /// Apply frame extraction to the stream (changes the stream to image sequence)
+    fn extract_frames(&self, stream: Self::Stream, sequentise: &Sequentise) -> Result<Self::Stream, DriverError>;
+    
+    /// Apply reverse operation to the stream
+    fn reverse(&self, stream: Self::Stream) -> Result<Self::Stream, DriverError>;
+    
+    /// Apply loop creation to the stream
+    fn create_loop(&self, stream: Self::Stream) -> Result<Self::Stream, DriverError>;
+    
+    /// Materialize the stream to a sink (execute the pipeline)
+    fn save(&self, stream: Self::Stream, sink: &Self::Sink) -> Result<(), DriverError>;
+}
+
+```
+I've used this pattern elsewhere when making a (rich text editor)[https://github.com/hector-crean/bluebook/blob/c78fbcfee24d173a331fa6f94e35786fa6560ccf/bluebook_core/src/text_buffer.rs#L65], or
+when creating APIs, and (not wanting to commit to a particular database)[https://github.com/hector-crean/crayon/blob/b7ec8989d650756f3b15af05c99504d9acbeb3ad/server/src/lib.rs#L104]. 
+
+This used of traits can sometimes overcomplicate things, but does provide useful agnosticism.
+
+Some thought has also been put to make the crates easily convertible into an MCP, which we have in fact done for the `mask` crate (crates/mask/src/mcp/mod.rs). Many of use now code using editors which can act as MCP
+clients, and do tool calling. It's very useful to be able to do tool calling with our custom tools right from our editor. I've also included a `cli` crate, which aims to expose all the tools via the command line
+
+
 
 
 
