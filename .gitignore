@@ -79,7 +79,7 @@ logs/
 *.jpeg
 *.bmp
 *.tiff
-*.gif
+# *.gif
 
 # Subtitle files (outputs)
 *.srt

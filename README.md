@@ -1,9 +1,6 @@
 # Video Kit - Tools for preprocessing videos
 
-<video width="600" controls>
-  <source src="https://github.com/hector-crean/video-kit/blob/main/assets/clickable_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Video Demo](assets/clickable_video.gif)
 
 <small>
 Set of tools developed for turning video animations into interactive presentations, but the tools have wider applicability.
