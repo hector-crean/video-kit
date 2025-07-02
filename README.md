@@ -1,7 +1,7 @@
 # Video Kit - Tools for preprocessing videos
 
 <video width="600" controls>
-  <source src="assets/clickable_video.mp4" type="video/mp4">
+  <source src="https://github.com/hector-crean/video-kit/blob/main/assets/clickable_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
