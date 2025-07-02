@@ -44,8 +44,8 @@ pub trait Driver {
 }
 
 ```
-I've used this pattern elsewhere when making a (rich text editor)[https://github.com/hector-crean/bluebook/blob/c78fbcfee24d173a331fa6f94e35786fa6560ccf/bluebook_core/src/text_buffer.rs#L65], or
-when creating APIs, and (not wanting to commit to a particular database)[https://github.com/hector-crean/crayon/blob/b7ec8989d650756f3b15af05c99504d9acbeb3ad/server/src/lib.rs#L104]. 
+I've used this pattern elsewhere when making a [rich text editor](https://github.com/hector-crean/bluebook/blob/c78fbcfee24d173a331fa6f94e35786fa6560ccf/bluebook_core/src/text_buffer.rs#L65), or
+when creating APIs, and [not wanting to commit to a particular database](https://github.com/hector-crean/crayon/blob/b7ec8989d650756f3b15af05c99504d9acbeb3ad/server/src/lib.rs#L104). 
 
 This used of traits can sometimes overcomplicate things, but does provide useful agnosticism.
 
