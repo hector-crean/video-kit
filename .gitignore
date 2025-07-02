@@ -58,6 +58,11 @@ logs/
 *.wmv
 *.m4v
 
+# Exception: Include all files in assets folder
+!assets/
+!assets/*
+!assets/**/*
+
 # Audio files (outputs)
 *.mp3
 *.wav

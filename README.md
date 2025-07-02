@@ -9,7 +9,7 @@
 Set of tools developed for turning video animations into interactive presentations, but the tools have wider applicability.
 
 The initial ambition was to use segment anything 2 to generate masks for objects within a video. We can then setup a 
-<a href="https://github.com/hector-crean/ran/blob/ab68788e8c4b30dd1ecbcc4dd8289601d0fc3f4a/src/components/webgpu-canvas.tsx#L211">ompute shader pipeline</a>, 
+<a href="https://github.com/hector-crean/ran/blob/ab68788e8c4b30dd1ecbcc4dd8289601d0fc3f4a/src/components/webgpu-canvas.tsx#L211">compute shader pipeline</a>, 
 where we readback the colour of the mask we are clicking on, and use this to infer the object we are interacting with. 
 
 This can in turn be used to drive UI effects within a fragment shader. 
