@@ -8,6 +8,10 @@ license.workspace = true
 [dependencies]
 thiserror = "1.0"
 color-eyre = "0.6"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+walkdir = { workspace = true }
 
 # For the command enum pattern
 serde = { version = "1.0", features = ["derive"] }
@@ -17,7 +21,18 @@ strum_macros = "0.26"
 schemars = "0.8"
 toml = "0.8"
 
-gstreamer = { version = "0.22", features = ["v1_22"], optional = true }
+# GStreamer support
+gstreamer = { version = "0.24", features = ["serde"] }
+gstreamer-app = "0.24"  
+gstreamer-video = "0.24"
+gstreamer-audio = "0.24"
+gstreamer-editing-services = "0.24.0"
+gstreamer-pbutils = "0.24.0"
+
+# macOS NSApplication support
+[target.'cfg(target_os = "macos")'.dependencies]
+cocoa = "0.25"
+objc = "0.2"
 
 # Subtitle integration
 tokio = { version = "1.0", features = ["full"], optional = true }
@@ -25,33 +40,6 @@ tokio = { version = "1.0", features = ["full"], optional = true }
 subtitles = { workspace = true, optional = true, features = ["schemars"] }
 video_kit_common = { path = "../video_kit_common" }
 
-[features]
-default = ["gstreamer", "ffmpeg"]
-gstreamer = ["dep:gstreamer"]
-ffmpeg = []
+# No features needed - GStreamer is the only backend
 
 
-[[example]]
-name = "splice_video"
-path = "examples/splice_video.rs"
-required-features = ["gstreamer"]
-
-[[example]]
-name = "ffmpeg_example"
-path = "examples/ffmpeg_example.rs"
-required-features = ["ffmpeg"]
-
-[[example]]
-name = "poster_generation"
-path = "examples/poster_generation.rs"
-required-features = ["ffmpeg"]
-
-[[example]]
-name = "smart_cutting_with_subtitles"
-path = "examples/smart_cutting_with_subtitles.rs"
-required-features = ["ffmpeg", "subtitles"]
-
-[[bin]]
-name = "video-cutter"
-path = "src/bin/video-cutter.rs"
-required-features = ["cli"]
