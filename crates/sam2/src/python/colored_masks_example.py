@@ -17,7 +17,7 @@ def run_colored_masks_example():
     processor = SAM2VideoProcessor("facebook/sam2-hiera-large")
     
     # Use one of the available videos
-    video_path = Path("videos/scene_03_02.mp4")
+    video_path = Path("videos/Scene_8.1_cut.mp4")
     if not video_path.exists():
         print(f"❌ Video file not found: {video_path}")
         print("Available videos:")
@@ -31,62 +31,57 @@ def run_colored_masks_example():
     
     # Define multiple prompts for different objects
     prompts = [
+         {
+            "prompt_type": "point", 
+            "points": [[614, 776], [566, 431], [423, 546], [416, 717]],
+            "labels": [1],
+            "frame_idx": 0,
+            "obj_id": 1,
+        },
         {
-            "prompt_type": "point",
-            "points": [[1264, 786]],  # First object
-            "labels": [1],
+            "prompt_type": "point", 
+            "points": [[1289, 532]],
+            "labels": [2],
             "frame_idx": 0,
-            "obj_id": 1
-        },
-         {
-            "prompt_type": "point",
-            "points": [[566, 784]],  # First object
-            "labels": [1],
-            "frame_idx": 0,
-            "obj_id": 2
-        },
-         {
-            "prompt_type": "point",
-            "points": [[417, 419]],  # First object
-            "labels": [1],
-            "frame_idx": 0,
-            "obj_id": 3
-        },
-         {
-            "prompt_type": "point",
-            "points": [[1062, 376]],  # First object
-            "labels": [1],
-            "frame_idx": 0,
-            "obj_id": 4
-        },
-         {
-            "prompt_type": "point",
-            "points": [[1410, 315]],  # First object
-            "labels": [1],
-            "frame_idx": 0,
-            "obj_id": 5
-        },
-        # {
-        #     "prompt_type": "box", 
-        #     "box": [1123, 680, 1457, 950],  # Box coordinates [x1, y1, x2, y2]
-        #     "labels": [1],
-        #     "frame_idx": 0,
-        #     "obj_id": 2
-        # }
-        # {
+            "obj_id": 2,
+        }
+        
+        #  {
         #     "prompt_type": "point", 
-        #     "points": [[600, 400]],  # Second object
+        #     "points": [[1474, 859], [1261, 697], [1760, 1070]],
         #     "labels": [1],
-        #     "frame_idx": 0,
-        #     "obj_id": 2
+        #     "frame_idx": 10,
+        #     "obj_id": 1,
         # },
-        # {
-        #     "prompt_type": "point",
-        #     "points": [[200, 250]],  # Third object  
-        #     "labels": [1],
-        #     "frame_idx": 0,
-        #     "obj_id": 3
+        #  {
+        #     "prompt_type": "point", 
+        #     "points": [[571, 473]],
+        #     "labels": [2],
+        #     "frame_idx": 10,
+        #     "obj_id": 2,
+        # },
+        #  {
+        #     "prompt_type": "point", 
+        #     "points": [[660, 833]],
+        #     "labels": [3],
+        #     "frame_idx": 10,
+        #     "obj_id": 3,
+        # },
+        #  {
+        #     "prompt_type": "point", 
+        #     "points": [[984, 441]],
+        #     "labels": [4],
+        #     "frame_idx": 10,
+        #     "obj_id": 4,
+        # },
+        #  {
+        #     "prompt_type": "point", 
+        #     "points": [[1516, 332]],
+        #     "labels": [5],
+        #     "frame_idx": 10,
+        #     "obj_id": 5,
         # }
+       
     ]
     
     try:
@@ -106,7 +101,7 @@ def run_colored_masks_example():
                     video_path=video_path,
                     frame_idx=prompt['frame_idx'],
                     points=prompt['points'],
-                    max_frames=60  # Limit frames for faster example
+                    max_frames=120  # Limit frames for faster example
                 )
             elif prompt['prompt_type'] == 'box':
                 print(f"   Box coordinates: {prompt['box']} (top-left: {prompt['box'][:2]}, bottom-right: {prompt['box'][2:]})")
@@ -114,7 +109,7 @@ def run_colored_masks_example():
                     video_path=video_path,
                     frame_idx=prompt['frame_idx'],
                     box=prompt['box'],
-                    max_frames=60  # Limit frames for faster example
+                    max_frames=120  # Limit frames for faster example
                 )
             else:
                 print(f"❌ Unknown prompt type: {prompt['prompt_type']}")
@@ -171,10 +166,12 @@ def run_colored_masks_example():
                 all_prompt_points.append([center_x, center_y])
         
         visualization_path = "colored_masks_example_results.png"
+        # Use the actual frame index from the first prompt
+        actual_prompt_frame_idx = prompts[0]['frame_idx']
         processor.visualize_results(
             frames,
             all_masks,
-            prompt_frame_idx=0,
+            prompt_frame_idx=actual_prompt_frame_idx,
             prompt_points=all_prompt_points,
             output_path=visualization_path
         )

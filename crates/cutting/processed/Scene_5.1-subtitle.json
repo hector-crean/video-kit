@@ -1,0 +1,58 @@
+[
+  {
+    "start": 5.52,
+    "end": 11.072312,
+    "text": "Apryl binds to receptors on the surface of plasma cells, including transmembrane",
+    "confidence": 0.9770112,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 11.072312,
+    "end": 11.872313,
+    "text": "activator",
+    "confidence": 0.99872506,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 11.872313,
+    "end": 13.552312,
+    "text": "and calcium modulating",
+    "confidence": 0.9812,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 13.552312,
+    "end": 14.432312,
+    "text": "cyclophilin",
+    "confidence": 0.74555826,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 14.432312,
+    "end": 16.032312,
+    "text": "interactor ligand,",
+    "confidence": 0.89799666,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 16.032312,
+    "end": 16.832312,
+    "text": "TAKi,",
+    "confidence": 0.5839141,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 16.912312,
+    "end": 19.152313,
+    "text": "and B cell maturation antigen.",
+    "confidence": 0.9889425,
+    "speaker": "Speaker 0",
+    "language": "en"
+  }
+]

@@ -7,6 +7,7 @@ use deepgram::{
     Deepgram, DeepgramError,
 };
 use serde::{Deserialize, Serialize};
+use ts_rs::TS;
 use std::path::{Path, PathBuf};
 use std::process::Command;
 use thiserror::Error;
@@ -35,7 +36,8 @@ pub enum SubtitleError {
 
 /// Represents a single subtitle/caption with timing information
 /// This is a simplified view of Deepgram's Utterance for subtitle export
-#[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, TS)]
+#[ts(export)]
 pub struct Subtitle {
     /// Start time in seconds
     pub start: f64,

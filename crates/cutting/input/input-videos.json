@@ -1,0 +1,23 @@
+{
+  "input_uri": "file://///Users/hectorcrean/Downloads/NOV271_Zigakibart_MoA_1080p_Preview_250801a.mp4",
+  "export_dir": "/Users/hectorcrean/rust/video-kit/crates/cutting/output",
+  "clips": [
+   
+    {
+      "name": "Scene_4.1.2.2",
+      "description": "",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 94160000000,
+          "end": 99845000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_4_1_2_2"
+      }
+    }
+  ]
+}

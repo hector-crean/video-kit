@@ -18,4 +18,6 @@ echo "Testing GStreamer installation..."
 gst-launch-1.0 --version
 
 echo "Running the example..."
-cargo run --example run 
+cargo run --bin cutting_pipeline 
+ cargo run --bin sequence_pipeline
+# cargo run --bin poster_pipeline 

@@ -1,0 +1,618 @@
+[
+  {
+    "start": 4.48,
+    "end": 5.52,
+    "text": "Immunoglobulin",
+    "confidence": 0.9894535,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 5.52,
+    "end": 6.8,
+    "text": "A nephropathy,",
+    "confidence": 0.9130224,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 6.96,
+    "end": 8.08,
+    "text": "or IGAN,",
+    "confidence": 0.96285224,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 8.08,
+    "end": 11.12,
+    "text": "is the most common primary glomerulonephritis",
+    "confidence": 0.998915,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 11.12,
+    "end": 11.999999,
+    "text": "worldwide,",
+    "confidence": 0.8843971,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 12.08,
+    "end": 17.164999,
+    "text": "with an estimated annual global incidence of around twenty five cases per million.",
+    "confidence": 0.9967041,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 17.645,
+    "end": 19.404999,
+    "text": "IGAN has a heterogeneous",
+    "confidence": 0.9308205,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 19.404999,
+    "end": 20.845,
+    "text": "clinical presentation",
+    "confidence": 0.99960816,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 20.845,
+    "end": 23.085,
+    "text": "with multiple clinical phenotypes.",
+    "confidence": 0.9487078,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 25.18,
+    "end": 27.02,
+    "text": "A multi hit hypothesis",
+    "confidence": 0.92307186,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 27.02,
+    "end": 29.5,
+    "text": "explains IgAN pathogenesis.",
+    "confidence": 0.9195519,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 30.060001,
+    "end": 32.38,
+    "text": "The initiating pathophysiological",
+    "confidence": 0.9825013,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 32.38,
+    "end": 37.739998,
+    "text": "event is believed to be the production of abnormal galactose deficient IgA1",
+    "confidence": 0.99249774,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 37.739998,
+    "end": 38.54,
+    "text": "antibodies,",
+    "confidence": 0.8518238,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 38.875,
+    "end": 40.635,
+    "text": "GD IgA1,",
+    "confidence": 0.9116075,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 40.635,
+    "end": 41.675,
+    "text": "by plasma cells.",
+    "confidence": 0.99877363,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 55.69,
+    "end": 58.89,
+    "text": "This leads to the development of autoantibodies",
+    "confidence": 0.9914075,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 58.89,
+    "end": 61.85,
+    "text": "against galactose deficient IgA1,",
+    "confidence": 0.9572506,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 61.93,
+    "end": 63.69,
+    "text": "GD IgA1,",
+    "confidence": 0.91582537,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 63.69,
+    "end": 65.93,
+    "text": "and the formation of immune complexes,",
+    "confidence": 0.98818874,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 66.245,
+    "end": 70.805,
+    "text": "which are deposited in the glomeruli and can trigger downstream pathways,",
+    "confidence": 0.9905079,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 70.885,
+    "end": 73.205,
+    "text": "including the complement and endothelin",
+    "confidence": 0.9944645,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 73.205,
+    "end": 74.085,
+    "text": "systems.",
+    "confidence": 0.99805987,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 75.365,
+    "end": 80.485,
+    "text": "Currently available therapies may not adequately address some of the drivers of IgAN.",
+    "confidence": 0.98413724,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 81.509995,
+    "end": 85.909996,
+    "text": "A tailored approach that considers the underlying pathophysiology",
+    "confidence": 0.99897885,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 85.909996,
+    "end": 89.42999,
+    "text": "may be beneficial in treating patients with this disease.",
+    "confidence": 0.9992869,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 91.909996,
+    "end": 97.204994,
+    "text": "Plasma cells are activated B cells, which play essential roles in immunity,",
+    "confidence": 0.9851158,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 97.284996,
+    "end": 99.845,
+    "text": "such as the production of immunoglobulins.",
+    "confidence": 0.9982669,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 99.924995,
+    "end": 101.205,
+    "text": "Their differentiation",
+    "confidence": 0.9986856,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 101.205,
+    "end": 102.485,
+    "text": "and maturation",
+    "confidence": 0.9987645,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 102.564995,
+    "end": 104.565,
+    "text": "are directed by a proliferation",
+    "confidence": 0.99826115,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 104.565,
+    "end": 106.085,
+    "text": "inducing ligand,",
+    "confidence": 0.9228856,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 106.165,
+    "end": 108.659996,
+    "text": "APRIL, a TNF superfamily",
+    "confidence": 0.9247541,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 108.659996,
+    "end": 109.46,
+    "text": "cytokine",
+    "confidence": 0.9969528,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 109.46,
+    "end": 112.42,
+    "text": "with a critical function in B cell physiology.",
+    "confidence": 0.98629373,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 130.275,
+    "end": 133.875,
+    "text": "APRIL binds to receptors on the surface of plasma cells,",
+    "confidence": 0.9669632,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 134.29001,
+    "end": 135.73001,
+    "text": "including transmembrane",
+    "confidence": 0.9972433,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 135.73001,
+    "end": 138.21,
+    "text": "activator and calcium modulating",
+    "confidence": 0.9882323,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 138.21,
+    "end": 139.17,
+    "text": "cyclophilin",
+    "confidence": 0.7594123,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 139.17,
+    "end": 141.89,
+    "text": "interactor ligand and",
+    "confidence": 0.79478765,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 141.89,
+    "end": 144.13,
+    "text": "B cell maturation antigen",
+    "confidence": 0.9841178,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 145.41,
+    "end": 147.17001,
+    "text": "By binding to TACI,",
+    "confidence": 0.96262646,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 147.25,
+    "end": 152.43501,
+    "text": "APRIL promotes the switching to an IgA secreting plasma cell isotype,",
+    "confidence": 0.9820848,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 152.515,
+    "end": 154.275,
+    "text": "and binding BCMA",
+    "confidence": 0.99301076,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 154.275,
+    "end": 156.43501,
+    "text": "promotes plasma cell survival.",
+    "confidence": 0.99807465,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 157.475,
+    "end": 158.595,
+    "text": "In IgAN,",
+    "confidence": 0.9079869,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 158.595,
+    "end": 163.635,
+    "text": "these events can lead to increased production of GD IgA1",
+    "confidence": 0.9771366,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 163.05,
+    "end": 165.29001,
+    "text": "and consequent disease progression.",
+    "confidence": 0.9840269,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 166.49,
+    "end": 173.29001,
+    "text": "Genetic studies found a correlation between a variant in the gene encoding for APRIL and elevated",
+    "confidence": 0.9675233,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 173.29001,
+    "end": 175.93001,
+    "text": "IgA production in patients with IgAM.",
+    "confidence": 0.9481628,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 176.725,
+    "end": 179.365,
+    "text": "Preclinical studies have also demonstrated",
+    "confidence": 0.9917451,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 179.365,
+    "end": 180.16501,
+    "text": "elevated",
+    "confidence": 0.9992372,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 180.16501,
+    "end": 185.04501,
+    "text": "APRIL gene and protein expression in animal models and patient samples,",
+    "confidence": 0.9667694,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 185.125,
+    "end": 187.445,
+    "text": "which correlate to GD IgA1",
+    "confidence": 0.94616187,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 187.445,
+    "end": 189.765,
+    "text": "levels and IgAN severity,",
+    "confidence": 0.9793187,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 189.765,
+    "end": 192.89,
+    "text": "making APRIL a potential therapeutic target.",
+    "confidence": 0.99616927,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 194.40999,
+    "end": 197.21,
+    "text": "Novartis is developing ZigaKibart,",
+    "confidence": 0.91585183,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 197.29,
+    "end": 198.40999,
+    "text": "an investigational",
+    "confidence": 0.996985,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 198.40999,
+    "end": 199.20999,
+    "text": "monoclonal",
+    "confidence": 0.9994604,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 199.20999,
+    "end": 200.01,
+    "text": "antibody",
+    "confidence": 0.99904937,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 200.01,
+    "end": 201.93001,
+    "text": "for use against April.",
+    "confidence": 0.9408084,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 202.25,
+    "end": 203.37,
+    "text": "ZigaKibart",
+    "confidence": 0.9991773,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 203.37,
+    "end": 206.975,
+    "text": "binds to April to prevent the activation of BCMA",
+    "confidence": 0.99760777,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 206.975,
+    "end": 208.49501,
+    "text": "and tachyoreceptors",
+    "confidence": 0.8807782,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 208.49501,
+    "end": 212.975,
+    "text": "in plasma cells, and this interferes with plasma cell survival",
+    "confidence": 0.98876256,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 212.975,
+    "end": 214.095,
+    "text": "and consequently",
+    "confidence": 0.7332853,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 214.095,
+    "end": 216.57501,
+    "text": "the production of abnormal IgA.",
+    "confidence": 0.9222256,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 217.695,
+    "end": 220.33,
+    "text": "By blocking Apryl, ZigaKibart",
+    "confidence": 0.8931939,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 220.33,
+    "end": 223.77,
+    "text": "reduces IgA levels, GD IgA1",
+    "confidence": 0.93867797,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 223.77,
+    "end": 224.49002,
+    "text": "production,",
+    "confidence": 0.93238467,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 224.73001,
+    "end": 226.57,
+    "text": "and potentially autoantibody",
+    "confidence": 0.9851906,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 226.57,
+    "end": 228.73001,
+    "text": "and immune complex formation,",
+    "confidence": 0.97545433,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 228.89,
+    "end": 230.65001,
+    "text": "which might halt initiation",
+    "confidence": 0.9989791,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 230.65001,
+    "end": 231.77,
+    "text": "of the pathogenesis",
+    "confidence": 0.9993234,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 231.77,
+    "end": 232.97,
+    "text": "event in IgAN.",
+    "confidence": 0.9455581,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 233.395,
+    "end": 236.675,
+    "text": "Current clinical trials are assessing ZigaKibart's",
+    "confidence": 0.942986,
+    "speaker": "Speaker 0",
+    "language": "en"
+  },
+  {
+    "start": 236.675,
+    "end": 242.595,
+    "text": "potential as a disease modifying therapy for reducing kidney injury in patients with IGAN.",
+    "confidence": 0.9978113,
+    "speaker": "Speaker 0",
+    "language": "en"
+  }
+]

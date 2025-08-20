@@ -9,11 +9,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let simple_image = create_simple_test_image();
     let donut_image = create_donut_test_image();
     let complex_image = create_complex_test_image();
+
+    let image = image::open("/Users/hectorcrean/Downloads/Scene_5.5_00001.png")?;
+
+    let greyscale = image.to_luma8();
     
-    demo_enhanced_commands();
-    demo_enhanced_algorithms(&simple_image)?;
-    demo_geo_algorithms(&donut_image)?;
-    demo_comprehensive_pipeline(&complex_image)?;
+    // demo_enhanced_commands();
+    // demo_enhanced_algorithms(&greyscale)?;
+    // demo_geo_algorithms(&greyscale)?;
+    demo_comprehensive_pipeline(&greyscale)?;
     
     println!("✅ All demos completed successfully!");
     println!("📁 Generated files: enhanced_*.geojson");

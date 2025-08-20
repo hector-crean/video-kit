@@ -43,7 +43,7 @@ pub enum VideoKitOperation {
 pub struct Clip {
     pub name: String,
     pub description: Option<String>,
-    pub operation: Option<CutVideoOperation>,
+    pub operation: CutVideoOperation,
 }
 
 /// Enhanced timeline configuration

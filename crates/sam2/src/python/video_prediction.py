@@ -189,6 +189,7 @@ class SAM2VideoProcessor:
         # Validate frame index
         if frame_idx >= len(frames):
             frame_idx = len(frames) // 2
+            print(f"Frame index {frame_idx} is out of range. There are {len(frames)} frames.")
             print(f"Adjusted frame index to middle frame: {frame_idx}")
 
         print(f"Using prompt frame {frame_idx} with points {points}")

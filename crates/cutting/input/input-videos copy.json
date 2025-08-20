@@ -1,0 +1,382 @@
+{
+  "input_uri": "file://///Users/hectorcrean/Downloads/NOV271_Zigakibart_MoA_1080p_Preview_250801a.mp4",
+  "export_dir": "/Users/hectorcrean/rust/video-kit/crates/cutting/output",
+  "clips": [
+    {
+      "name": "Scene_1.1",
+      "description": "We open on a body shot with kidneys on display. Next to body, a world map appears",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 0,
+          "end": 17170000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_1.1"
+      }
+    },
+    {
+      "name": "Scene_2.1",
+      "description": "Kidneys become more in focus. Cut to a blood vessel environment. Stop to rotate Gd-IgA1 around a pivot point.",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 17170000000,
+          "end": 43690000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_2.1"
+      }
+    },
+    {
+      "name": "Scene_2.2.1",
+      "description": "More antibodies enter and are labelled anti-Gd-IgA1 autoantibodies (Title: ‘HIT 2’).",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 43690000000,
+          "end": 55600000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_2.2.1-sequence"
+      }
+    },
+
+    {
+      "name": "Scene_2.2.3",
+      "description": "User pulls sequence slider to form immune complex.",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 55600000000,
+          "end": 59860000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_2.2.3-sequence"
+      }
+    },
+
+    {
+      "name": "Scene_2.2.4",
+      "description": "Post-sequence slider, the voiceover explain",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 55600000000,
+          "end": 89500000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_2.2.4"
+      }
+    },
+    {
+      "name": "Scene_4.1.1",
+      "description": "The overlay disappears and we see the immune complex damaging the glomerulus. Utilise comparison slider",
+      "edits": [
+        {
+          "type": "Cut",
+          //1:29.5
+          "start": 89500000000,
+          //1:39.845
+          "end": 99845000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_4.1.1"
+      }
+    },
+    {
+      "name": "Scene_4.1.2",
+      "description": "We loop while we wait for the user to click on the plasma cell. Looped and slowed down version of the original",
+      "edits": [
+        {
+          "type": "Cut",
+          // 1:38.24
+          "start": 98240000000,
+          // 1:39.845
+          "end": 99845000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_4.1.2"
+      }
+    },
+    {
+      "name": "Scene_4.1.3",
+      "description": "",
+      "edits": [
+        {
+          "type": "Cut",
+            // 1:39.845
+          "start": 99845000000,
+          "end": 112450000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_4.1.3"
+      }
+    },
+    {
+      "name": "Scene_4.1.4",
+      "description": "",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 112450000000,
+          "end": 124740000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_4.1.4-sequence"
+      }
+    },
+    {
+      "name": "Scene_5.1",
+      "description": "",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 124740000000,
+          "end": 144130000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_5.1"
+      }
+    },
+    {
+      "name": "Scene_5.2",
+      "description": "Reposition for drag sequence",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 144130000000,
+          "end": 147320000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_5.2"
+      }
+    },
+    {
+      "name": "Scene_5.3",
+      "description": "Drag sequence",
+        "edits": [
+        {
+          "type": "Cut",
+          "start": 147320000000,
+          "end": 148810000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_5.3-sequence"
+      }
+    },
+    {
+      "name": "Scene_5.4",
+      "description": "Transition to next drag sequence",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 148810000000,
+          "end": 153160000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_5.4"
+      }
+    },
+    {
+      "name": "Scene_5.5",
+      "description": "Drag sequence",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 153160000000,
+          "end": 156490000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_5.5-sequence"
+      }
+    },
+    {
+      "name": "Scene_5.6",
+      "description": "Reverse back to start and play",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 144130000000,
+          "end": 156490000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_5.6"
+      }
+    },
+    {
+      "name": "Scene_6.1",
+      "description": "The camera pulls out and we see the plasma cell in circulation releasing Gd-IgA1 antibodies.",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 156490000000,
+          "end": 175940000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_6.1"
+      }
+    },
+    {
+      "name": "Scene_7.1",
+
+      "description": "split 3 screen",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 175940000000,
+          "end": 194400000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_7.1"
+      }
+    },
+    {
+      "name": "Scene_8.1",
+      "description": "Focus on kidneys. Flashing",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 190480000000,
+          "end": 194400000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_8.1"
+      }
+    },
+    {
+      "name": "Scene_9.1",
+      "description": "Zigakibart enters. We pause and rotate. ",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 194400000000,
+          "end": 201940000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_9.1"
+      }
+    },
+    {
+      "name": "Scene_9.4",
+      "description": "Drag sequence. ",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 201940000000,
+          "end": 203590000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_9.4"
+      }
+    },
+    {
+      "name": "Scene_9.5",
+      "description": "BCMA and TACI receptors are shown to be unbound while Zigakibart is bound to APRIL. ",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 201940000000,
+          "end": 217690000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_9.5"
+      }
+    },
+    {
+      "name": "Scene_10.1",
+      "description": "Comparison slider. ",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 217690000000,
+          "end": 232970000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_10.1"
+      }
+    },
+    {
+      "name": "Scene_11.1",
+      "description": "",
+      "edits": [
+        {
+          "type": "Cut",
+          "start": 232970000000,
+          "end": 244000000000
+        }
+      ],
+      "export": {
+        "type": "Video",
+        "format": "Mp4",
+        "filename": "Scene_11.1"
+      }
+    }
+  ]
+}

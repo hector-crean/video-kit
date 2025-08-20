@@ -21,11 +21,15 @@ chrono = { version = "0.4", features = ["serde"] }
 tempfile = "3.8"
 # JSON Schema for integration with cutting crate
 schemars = { version = "0.8", optional = true }
+walkdir = { workspace = true }
+glob = "0.3.2"
+
+ts-rs = { workspace = true }
 
 [features]
 default = []
 schemars = ["dep:schemars"]
 
-[[example]]
+[[bin]]
 name = "extract_subtitles"
-path = "examples/extract_subtitles.rs"
+path = "bin/extract_subtitles.rs"
